@@ -18,8 +18,13 @@ function App() {
         >
           Learn React
         </a>
+        <ul className="list-decimal"> {/* colocar "App-textDec" y descomentar la clase en el Amm.css para hacer lo mismo con Css aca esta con tailwind */}
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+         </ul>
       </header>
-    </div>
+    </div>    
   );
 }
 

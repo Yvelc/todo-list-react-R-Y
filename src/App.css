@@ -8,8 +8,14 @@
   pointer-events: none;
 }
 
+/*.App-textDec {
+  text-align: right;
+list-style-type: disc; 
+  color: aquamarine;
+} */
+
 .App-header {
-  background-color: #282c34;
+  background-color: #219199;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
