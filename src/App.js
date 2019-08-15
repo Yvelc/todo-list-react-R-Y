@@ -1,29 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p class="text-red-600">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <ul className="list-disc"> {/* colocar "App-textDec" y descomentar la clase en el Amm.css para hacer lo mismo con Css aca esta con tailwind */}
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-         </ul>
-      </header>
+  <div className="text-center bg-indigo-300 min-h-screen flex flex-col items-center justify-center text-teal-100
+  sm:text-xs
+  md:text-tiny 
+  lg:text-lg 
+  xl:text-2xl 
+  x2:text-4xl 
+  x3:text-5xl 
+  x4:text-6xl"> {/* className="App" */} 
+      
+      <Header />
+      <MainContent />
+      <Footer />
+    
     </div>    
   );
 }
