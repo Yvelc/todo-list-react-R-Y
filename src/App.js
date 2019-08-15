@@ -4,6 +4,8 @@ import './App.css';
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from "./components/Footer"
+import Tlist from "./components/Tlist"
+//import TodoItem from "./components/TodoItem"
 
 function App() {
   return (
@@ -18,6 +20,24 @@ function App() {
       
       <Header />
       <MainContent />
+   
+      <Tlist/>
+      <Tlist/>
+      <Tlist/>
+      
+      <Tlist/>
+      <Tlist/>
+      <Tlist/>
+
+      
+      <Tlist/>
+      <Tlist/>
+      <Tlist/>
+      
+      <Tlist/>
+      <Tlist/>
+      <Tlist/>
+
       <Footer />
     
     </div>    

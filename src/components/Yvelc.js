@@ -11,6 +11,8 @@ function Yvelc() {
           <li>Venezuela</li>
           <li>Caracas</li>
         </ul>
+        <input type="checkbox" />
+           <p>TaskYvelc </p>
       </div>
     )
   }
