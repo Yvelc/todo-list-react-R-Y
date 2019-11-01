@@ -3,8 +3,8 @@ import React from "react"
 function MainContent(){
     return (
         <main>
-           This is the MainContent: <br></br>
-            
+           Task List: <br></br>
+          
         </main>
     )
 }
